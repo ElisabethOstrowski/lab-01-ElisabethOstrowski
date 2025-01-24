@@ -2,11 +2,21 @@
 title: "Lab 01 - Hello R!"
 author: "Elisabeth Ostrowski"
 output: 
-  tufte::tufte_html:
+  html_document:
+    latex_engine: xelatex
+    fig_width: 5
+    fig_height: 5
+    tufte::tufte_html:
     css: ../lab.css
     tufte_variant: "envisioned"
     highlight: pygments
+    html_document:
+      fig_width: 5
+      theme: readable
 link-citations: true
+editor_options:
+  markdown:
+    wrap: sentence 
 ---
 
 ```{marginfigure}
